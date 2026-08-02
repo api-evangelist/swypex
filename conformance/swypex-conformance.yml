@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://support.swypex.com/en/articles/8024204-privacy-policy
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: >-
+    Swypex privacy policy states it complies with PCI DSS (Payment Card Industry
+    Data Security Standard) for secure handling of credit card information.
+  source: https://support.swypex.com/en/articles/8024204-privacy-policy
+- id: cbe-licensed
+  conforms: true
+  evidence: >-
+    Swypex is licensed by the Central Bank of Egypt and operates its corporate
+    card program in partnership with Visa and Mashreq Bank.
+  source: https://www.swypex.com/

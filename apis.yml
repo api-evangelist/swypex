@@ -1,7 +1,31 @@
 aid: swypex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swypex.png
 name: Swypex
-description: Swypex is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Swypex is an Egyptian fintech, founded in 2022 and headquartered at Smart Village
+  in Cairo, that provides an all-in-one financial management platform for businesses.
+  The platform bundles corporate cards, payments, invoice management, and working
+  capital financing into one system, giving finance teams real-time visibility and
+  control over company spend. Swypex launched Egypt's first approval-based corporate
+  card, where each transaction's limit unlocks only after real-time review and
+  approval by the company's finance team, and offers e-invoicing (with an Odoo
+  integration) and Swypextend working-capital financing. Swypex is licensed by the
+  Central Bank of Egypt and operates its card program in partnership with Visa and
+  Mashreq Bank. It raised a $4M seed round led by Accel (Accel's first fintech
+  investment in MENA), with Foundation Ventures and Raba Partnership. Swypex does
+  not publish a public developer API; its products are delivered through web and
+  mobile apps plus a small set of native integrations (Odoo, e-invoicing, Just2Pay).
 url: https://raw.githubusercontent.com/api-evangelist/swypex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +35,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Corporate Cards
+- Spend Management
+- Payments
+- Invoicing
+- Working Capital
+- Egypt
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 common:
 - type: Website
   url: https://www.swypex.com/
+- type: HelpCenter
+  url: https://support.swypex.com/
+- type: Support
+  url: https://support.swypex.com/
+- type: SignUp
+  url: https://app.swypex.com/en/onboarding/phone
+- type: TermsOfService
+  url: https://support.swypex.com/en/articles/8024194-terms-of-use
+- type: PrivacyPolicy
+  url: https://support.swypex.com/en/articles/8024204-privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Swypex
+- type: WellKnown
+  url: well-known/swypex-well-known.yml
+- type: SecurityTxt
+  url: well-known/swypex-security.txt
+- type: VulnerabilityDisclosure
+  url: security/swypex-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.swypex.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/swypex-domain-security.yml
+- type: Conformance
+  url: conformance/swypex-conformance.yml
+- type: Compliance
+  url: https://support.swypex.com/en/articles/8024204-privacy-policy
